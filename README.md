@@ -29,7 +29,7 @@ Cruzar dados sobre alimentação ao redor do mundo, analisando sua acessibilidad
 
 |Título da consulta|Descrição|Dataset 1|Dataset 2|
 |------------------|---------|---------|---------|
-|Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo a porcentagem da variação do preço de um dado país de 2017 até 2022|A ideia é mostrar um comparativo da porcentagem da população por país que consegue manter uma dieta saudável e o quanto isso é caro em questão de inflação.|[Dataset 1](https://ourworldindata.org/grapher/share-healthy-diet-unaffordable?time=latest)|[Dataset 2](https://ourworldindata.org/grapher/share-of-countries-recording-high-food-prices?tab=table)|
+|Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo a porcentagem do preço superfaturado do continente de 2017 até 2022|A ideia é mostrar um comparativo da porcentagem da população por país que consegue manter uma dieta saudável e o quanto isso é caro em questão de inflação.|[Dataset 1](https://ourworldindata.org/grapher/share-healthy-diet-unaffordable?time=latest)|[Dataset 2](https://ourworldindata.org/grapher/share-of-countries-recording-high-food-prices?tab=table)|
 |Retorne o gasto diário em dólar por país comparado pelo custo diário em dólar de uma dieta saudável em 2021 considerando cada tipo de comida|Com a query, temos o comparativo do gasto que uma pessoa faz com cada tipo de comida em relação ao o custo da dieta saudável diariamente naquele país.|[Dataset 1](https://ourworldindata.org/grapher/cost-foods-healthy-diet?tab=table)|[Dataset 2](https://ourworldindata.org/grapher/cost-healthy-diet?time=2022)|
 |Dado um ano X, retorne quanto uma pessoa gastou com comida naquele ano e inclua o percentual de gasto em tabaco e álcool daquele mesmo ano por país|Fomentar a discussão acerca de países com um alto percentual de gasto de tabaco e álcool com relação a comida.|[Dataset 1](https://ourworldindata.org/grapher/food-expenditure-per-person-per-year)|[Dataset 2](https://ourworldindata.org/grapher/share-expenditure-alcohol-tobacco)|
 |Evolução do custo de uma dieta saudável em relação ao PIB per capita|Mostrar como o custo diário de uma dieta saudável evoluiu ao longo dos anos, para identificar se ficou mais acessível ou mais difícil manter uma dieta saudável.|[Dataset 1](https://ourworldindata.org/grapher/cost-healthy-diet)|[Dataset 2](https://ourworldindata.org/grapher/gdp-per-capita-worldbank)|
@@ -37,4 +37,19 @@ Cruzar dados sobre alimentação ao redor do mundo, analisando sua acessibilidad
 <p align="center"><b>Tabela 1:</b> Dados a serem cruzados e explorados</p>
 
 ## Desenvolvimento
+
 Para a realização do projeto, foi criado um código comum que realiza a integração e persistência de dados entre arquivos *CSV* e o *MongoDB* usando *PySpark*. Ele começa carregando dois *datasets CSV*, e normaliza as colunas de junção removendo espaços em branco das colunas "Entity", "Code" e "Year". Em seguida, realiza um *join* entre os dois *datasets* com base nessas colunas, tratando separadamente os casos em que a coluna "Code" é nula, unindo esses dados ao resultado principal. Por fim, o *DataFrame* resultante é salvo no *MongoDB*, utilizando o modo *overwrite*, ou seja, substituindo os dados anteriores da coleção.
+
+Após os dados já estarem processados e salvos no *MongoDB*, foram feitas 5 *queries* para os objetivos das consultas já listados anteriormente, essas consultas são independentes entre si e podem ser utilizadas alterando os parâmetros de *match*, para a visualização dos dados para um país ou ano específico. As consultas utilizam agregação, fazendo os cálculos necessários para encontrar taxas de variação, porcentagens e estimativas. Essas consultas foram utilizadas para gerar alguns gráficos que mostram de maneira visual os resultados a serem alcançados.
+
+### Dificuldades
+
+A maior dificuldade enfrentada foi o acesso ao *Databricks* para a utilização do *Apache Spark*, já que apenas um integrante do nosso grupo tinha o acesso à versão *Community*, onde é possível fazer a manipulação das bibliotecas instaladas para que seja possível a conexão entre o *Spark* e o *MongoDB* diretamente e de forma distribuída.
+
+Outra dificuldade também foi em relação à primeira query, já que não conseguimos cruzar os dados do *dataset* que tinha as informações de inflação com os dados de quantos não conseguem sustentar uma dieta saudável. Então ao invés de relacionar quantos não conseguem sustentar uma dieta saudável com a inflação, optamos por cruzar com o índice de variação do preço de comida, no qual foi possível fazer a junção dos dados.
+
+- **Query 1 original:** Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo a porcentagem do preço superfaturado do continente de 2017 até 2022
+- **Query 1 atualizada:** Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo o índice da variação do preço da comida de um dado país de 2017 até 2022
+
+## Conclusão 
+
