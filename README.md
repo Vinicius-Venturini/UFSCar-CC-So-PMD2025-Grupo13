@@ -1,5 +1,11 @@
 # A acessibilidade da alimentação no mundo
 
+## Integrantes
+
+- Bruno dos Santos Ferraz | 796085
+- Marcus Vinícius Caruso Leite | 792200
+- Vinícius Carvalho Venturini | 793250
+
 ## Resumo do tema
 
 O projeto tem como tema a acessibilidade da alimentação no mundo, utilizando dados públicos disponíveis na plataforma *ourworldindata*, especificamente sobre preços e disponibilidade de alimentos. Para isso, o Apache Spark será utilizado para o processamento e cruzamento de dados em JSON, utilizando atributos em comum para cruzar os dados como: país, ano, continente e etc. O banco de dados NoSQL MongoDB será utilizado para armazenar os resultados desses cruzamentos, para facilitar a análise desses dados por meio de consultas Map/Reduce e agregações (Figura 1). 
