@@ -53,7 +53,7 @@ Outra dificuldade também foi em relação à primeira query, já que não conse
 
 ## Conclusão 
 
-Ao realizar as junções e verificar os resultados das consultas, conclui-se que não necessariamente há uma relação entre dois dados distintos para que um país tenha acessibilidade a uma dieta saudável, os fatores que levam um país a ter ou não acesso a comida de qualidade são diversos, e observando apenas uma parte dos dados não diz muita coisa sobre o que este país enfrenta. Outro ponto importante é que todos os dados utilizados neste projetos vinham da mesma fonte, o que pode gerar um viés nos resultados obtidos. Um possível estudo futuro seria verificar a acessibiilidade de uma alimentação saudável levando em consideração outros fatores que não foram inseridos neste estudo, como cultura do país, embargos econômicos, etc.
+Ao realizar as junções e verificar os resultados das consultas, conclui-se que não necessariamente há uma relação entre dois dados distintos para que um país tenha acessibilidade a uma dieta saudável, os fatores que levam um país a ter ou não acesso a comida de qualidade são diversos, e observando apenas uma parte dos dados não diz muita coisa sobre o que este país enfrenta. Outro ponto importante é que todos os dados utilizados neste projetos vinham da mesma fonte, o que pode gerar um viés nos resultados obtidos. Um possível estudo futuro seria verificar a acessibilidade de uma alimentação saudável levando em consideração outros fatores que não foram inseridos neste estudo, como cultura do país, embargos econômicos, etc.
 
 ### Resultados das consultas
 
