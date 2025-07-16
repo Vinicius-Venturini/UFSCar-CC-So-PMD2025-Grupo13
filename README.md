@@ -53,3 +53,48 @@ Outra dificuldade também foi em relação à primeira query, já que não conse
 
 ## Conclusão 
 
+Ao realizar as junções e verificar os resultados das consultas, conclui-se que não necessariamente há uma relação entre dois dados distintos para que um país tenha acessibilidade a uma dieta saudável, os fatores que levam um país a ter ou não acesso a comida de qualidade são diversos, e observando apenas uma parte dos dados não diz muita coisa sobre o que este país enfrenta. Outro ponto importante é que todos os dados utilizados neste projetos vinham da mesma fonte, o que pode gerar um viés nos resultados obtidos. Um possível estudo futuro seria verificar a acessibiilidade de uma alimentação saudável levando em consideração outros fatores que não foram inseridos neste estudo, como cultura do país, embargos econômicos, etc.
+
+### Resultados das consultas
+
+Os resultados destacados nestes gráficos apresentam apenas alguns países para facilitar a visualização, para verificar os dados completos, realize a consulta ao banco.
+
+#### Consulta 1
+
+Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo o índice da variação do preço da comida de um dado país de 2017 até 2022
+
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query1.png">
+</p>
+
+#### Consulta 2
+
+Retorne o gasto diário em dólar por país comparado pelo custo diário em dólar de uma dieta saudável em 2021 considerando cada tipo de comida
+
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query2.png">
+</p>
+
+#### Consulta 3
+
+Dado um ano X, retorne quanto uma pessoa gastou com comida naquele ano e inclua o percentual de gasto em tabaco e álcool daquele mesmo ano por país
+
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query3.png">
+</p>
+
+#### Consulta 4
+
+Evolução do custo de uma dieta saudável em relação ao PIB per capita
+
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query4.png">
+</p>
+
+#### Consulta 5
+
+Comparar custo da dieta saudável com a prevalência de insegurança alimentar
+
+<p align="center">
+  <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query5.png">
+</p>
