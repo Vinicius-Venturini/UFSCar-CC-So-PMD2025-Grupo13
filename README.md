@@ -1,9 +1,13 @@
 # Projeto de Disciplina – A acessibilidade da alimentação no mundo
 
-## Integrantes
+Universidade Federal de São Carlos
+Curso: Bacharelado em Ciência da Computação de Sorocaba
+Disciplina: Processamento Massivo de Dados
+Professora: Profa. Dra. Sahudy Montenegro González
 
-teste
----
+## Grupo 13
+
+### Integrantes
 
 - Bruno dos Santos Ferraz | 796085
 - Marcus Vinícius Caruso Leite | 792200
