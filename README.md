@@ -71,7 +71,7 @@ Os resultados destacados nestes gráficos apresentam apenas alguns países para 
 
 #### Consulta 1
 
-Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo o índice da variação do preço da comida de um dado país de 2017 até 2022
+Consulta: Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo o índice da variação do preço da comida de um dado país de 2017 até 2022.
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query1.png">
@@ -79,7 +79,11 @@ Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, i
 
 #### Consulta 2
 
-Retorne o gasto diário em dólar por país comparado pelo custo diário em dólar de uma dieta saudável em 2021 considerando cada tipo de comida
+Consulta: Retorne o gasto diário em dólar por país comparado pelo custo diário em dólar de uma dieta saudável em 2021 considerando cada tipo de comida.
+
+Analisando gráfico, podemos notar o alto preço para sustentar uma dieta saudável no Brasil, mesmo o país sendo o terceiro maior exportador agrícola global, sendo os EUA o segundo maior. Dada a comparação, é interessante perceber que o custo de frutas no Brasil é maior do que dos EUA porém, em contrapartida, os vegetais brasileiros são mais baratos.
+
+Além disso, fica em evidência o fato do custo de alimentos de origem animal na China ser mais caro que todos os outros países, esse fato pode ser acarretado por conta da crise sanitária na produção animal no país, levando ao abate de milhões de porcos, com uma queda grande na oferta da carne suína, principal proteína animal consumida no país.
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query2.png">
@@ -87,7 +91,7 @@ Retorne o gasto diário em dólar por país comparado pelo custo diário em dól
 
 #### Consulta 3
 
-Dado um ano X, retorne quanto uma pessoa gastou com comida naquele ano e inclua o percentual de gasto em tabaco e álcool daquele mesmo ano por país
+Consulta: Dado um ano X, retorne quanto uma pessoa gastou com comida naquele ano e inclua o percentual de gasto em tabaco e álcool daquele mesmo ano por país.
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query3.png">
@@ -95,7 +99,7 @@ Dado um ano X, retorne quanto uma pessoa gastou com comida naquele ano e inclua 
 
 #### Consulta 4
 
-Evolução do custo de uma dieta saudável em relação ao PIB per capita
+Consulta: Evolução do custo de uma dieta saudável em relação ao PIB per capita.
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query4.png">
@@ -103,8 +107,17 @@ Evolução do custo de uma dieta saudável em relação ao PIB per capita
 
 #### Consulta 5
 
-Comparar custo da dieta saudável com a prevalência de insegurança alimentar
+Consulta: Comparar custo da dieta saudável com a prevalência de insegurança alimentar.
+
+Nesse caso, podemos pautar alguns pontos interessantes sobre países em condições mais extremas nos eixos de insegurança alimentar e custo diário de uma dieta saudável. Como por exemplo: Na jamaica, país com economia fortemente dependente de turismo, há a prevalência de uma alta insegurança alimentar e custo alto para sustentar uma dieta saudável devido ao prejuízo econômico acarretado pela pandemia da Covid-19 em 2021, atraindo poucos turistas.
+
+Outro ponto relevante está na posição da Tanzânia, com custo de diário de dieta saudável menor do que países bem desenvolvidos (Como França, Itália, Portugal e até Russia) porém com uma alta insegurança alimentar. Entretanto, segundo o European Journal of Nutrition & Food Safety, apesar do crescimento do PIB, a renda não acompanha o aumento dos custos alimentares, especialmente de proteínas e alimentos densos em micronutrientes.
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query5.png">
 </p>
+
+## Referências
+- [https://knowledge4policy.ec.europa.eu/publication/trends-world-agricultural-trade-2000-2021_en](https://knowledge4policy.ec.europa.eu/publication/trends-world-agricultural-trade-2000-2021_en)
+- [https://openknowledge.fao.org/server/api/core/bitstreams/fb0c42e8-8bc6-471b-9498-07fa26aac0b4/content](https://openknowledge.fao.org/server/api/core/bitstreams/fb0c42e8-8bc6-471b-9498-07fa26aac0b4/content)
+- [https://journalejnfs.com/index.php/EJNFS/article/view/1496](https://journalejnfs.com/index.php/EJNFS/article/view/1496)
