@@ -1,8 +1,11 @@
 # Projeto de Disciplina – A acessibilidade da alimentação no mundo
 
 Universidade Federal de São Carlos
+
 Curso: Bacharelado em Ciência da Computação de Sorocaba
+
 Disciplina: Processamento Massivo de Dados
+
 Professora: Profa. Dra. Sahudy Montenegro González
 
 ## Grupo 13
