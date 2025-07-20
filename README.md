@@ -1,6 +1,9 @@
-# A acessibilidade da alimentação no mundo
+# Projeto de Disciplina – A acessibilidade da alimentação no mundo
 
 ## Integrantes
+
+teste
+---
 
 - Bruno dos Santos Ferraz | 796085
 - Marcus Vinícius Caruso Leite | 792200
