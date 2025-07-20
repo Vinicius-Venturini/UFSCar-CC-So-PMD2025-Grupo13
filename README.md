@@ -12,7 +12,7 @@ Professora: Profa. Dra. Sahudy Montenegro González
 
 ### Grupo 13
 
-### Integrantes
+#### Integrantes
 
 - Bruno dos Santos Ferraz | 796085
 - Marcus Vinícius Caruso Leite | 792200
