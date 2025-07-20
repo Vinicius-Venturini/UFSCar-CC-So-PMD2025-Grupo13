@@ -8,7 +8,9 @@ Disciplina: Processamento Massivo de Dados
 
 Professora: Profa. Dra. Sahudy Montenegro González
 
-## Grupo 13
+---
+
+### Grupo 13
 
 ### Integrantes
 
