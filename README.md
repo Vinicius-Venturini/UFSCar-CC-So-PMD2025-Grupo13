@@ -107,6 +107,8 @@ Logo, não se pode dizer que há uma relação clara entre o gasto com comida e 
 
 Consulta: Evolução do custo de uma dieta saudável em relação ao PIB per capita.
 
+Observa-se que países de alta renda, como Luxemburgo e Singapura, possuem um PIB per capita elevado e, mesmo assim, exibem custos de dieta relativamente parecidos com a maioria dos outros países apontados no gráfico, mostrando que o PIB per capta pode influenciar, mas com certeza não é a métrica que define se os habitantes de um país terão acesso ou não a uma alimentação de qualidade. Isso só mostra que o PIB per capta não é uma métrica que pode ser usada cegamente para saber se um país possuí uma boa qualidade de vida, visto que o PIB pode não estar dividido de forma igual para os habitantes de um país.
+
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query4.png">
 </p>
