@@ -111,7 +111,7 @@ Consulta: Comparar custo da dieta saudável com a prevalência de insegurança a
 
 Nesse caso, podemos pautar alguns pontos interessantes sobre países em condições mais extremas nos eixos de insegurança alimentar e custo diário de uma dieta saudável. Como por exemplo: Na jamaica, país com economia fortemente dependente de turismo, há a prevalência de uma alta insegurança alimentar e custo alto para sustentar uma dieta saudável devido ao prejuízo econômico acarretado pela pandemia da Covid-19 em 2021, atraindo poucos turistas.
 
-Outro ponto relevante está na posição da Tanzânia, com custo de diário de dieta saudável menor do que países bem desenvolvidos (Como França, Itália, Portugal e até Russia) porém com uma alta insegurança alimentar. Entretanto, segundo o European Journal of Nutrition & Food Safety, apesar do crescimento do PIB, a renda não acompanha o aumento dos custos alimentares, especialmente de proteínas e alimentos densos em micronutrientes.
+Outro ponto relevante está na posição da Tanzânia, com custo de diário de dieta saudável menor do que países bem desenvolvidos (Como França, Itália, Portugal e até Russia) porém com uma alta insegurança alimentar. Entretanto, segundo o relatório da World Health Organization, apesar do crescimento do PIB, a renda não acompanha o aumento dos custos alimentares no país, especialmente de proteínas e alimentos densos em micronutrientes.([https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2024](https://www.who.int/publications/m/item/the-state-of-food-security-and-nutrition-in-the-world-2024))
 
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query5.png">
