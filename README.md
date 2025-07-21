@@ -73,6 +73,8 @@ Os resultados destacados nestes gráficos apresentam apenas alguns países para 
 
 Consulta: Retorne a porcentagem de quantos não conseguem sustentar uma dieta saudável, incluindo o índice da variação do preço da comida de um dado país de 2017 até 2022.
 
+A relação entre a variação de preços dos alimentos e a acessibilidade a uma dieta saudável no Brasil é complexa. Embora em 2020 e 2021 tenha ocorrido diminuição no índice de variação dos preços, o percentual da população que não consegue pagar por uma dieta saudável aumentou de forma mais acentuada em 2021. Curiosamente, mesmo em anos de estabilidade ou queda nos preços relativos dos alimentos, como em 2017, 2018,  2019 e 2022 o percentual de pessoas sem acesso a uma dieta saudável permaneceu elevado, indicando que o problema não está restrito à inflação de alimentos, mas também à desigualdade de renda e ao poder aquisitivo da população. Isso demonstra que políticas de segurança alimentar devem ir além do controle de preços, envolvendo também melhorias na renda e políticas sociais mais amplas.
+
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query1.png">
 </p>
