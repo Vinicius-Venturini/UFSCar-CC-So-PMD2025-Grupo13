@@ -95,6 +95,10 @@ Além disso, fica em evidência o fato do custo de alimentos de origem animal na
 
 Consulta: Dado um ano X, retorne quanto uma pessoa gastou com comida naquele ano e inclua o percentual de gasto em tabaco e álcool daquele mesmo ano por país.
 
+Analisando o gráfico gerado a partir da consulta, é perceptível que alguns países como Hong Kong e Japão têm gastos elevados com comida, porém valores baixos de gasto com álcool e tabaco, enquanto outros países como Estônia e Lituânia tem um maior gasto com álcool e tabaco mesmo gastando menos com comida. Isso pode estar relacionado a padrões culturais, sendo que a Estônia e Lituânia estão localizadas no leste europeu e possuem uma cultura mais parecida entre si, podendo se diferenciar bastante culturalmente de um país do leste asiático como o Japão.
+
+Logo, não se pode dizer que há uma relação clara entre o gasto com comida e o gasto com álcool e tabaco, podendo estar muito mais relacionado à fatores culturais e a existência ou não de políticas públicas de restrição ao consumo dessas substâncias em cada país.
+
 <p align="center">
   <img src="https://github.com/Vinicius-Venturini/UFSCar-CC-So-PMD2025-Grupo13/blob/main/images/query3.png">
 </p>
